@@ -33,7 +33,7 @@ weekday_df.replace({
     6: "Sabtu"
 }, inplace=True)
 
-st.title('Bike Sharing Dashboard')
+st.title('Bike Sharing Dataset Dashboard')
 
 tab1, tab2 = st.tabs(["Pertanyaan 1", "Pertanyaan 2"])
 
