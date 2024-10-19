@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-day_df = pd.read_csv("https://raw.githubusercontent.com/mfadhtraktor/proyek-dicoding-176351/refs/heads/main/day.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/mfadhtraktor/proyek-dicoding-176351/refs/heads/main/data/day.csv")
 
 weathersit_df = day_df.groupby("weathersit").cnt.sum().sort_values(ascending=False).reset_index()
 
